@@ -1,6 +1,6 @@
-name: clear-stale-PRs
+## name: clear-stale-PRs
 
-on:
+on:false
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *" # UTC Midnight everyday
